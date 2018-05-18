@@ -1,0 +1,73 @@
+.Comment, .CommentForm {
+    background: linear-gradient(to bottom right, rgba(192,255,255,1), rgba(128,255,255,1));
+    border: black solid 1px;
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: left;
+    border-radius: 18px;
+}
+
+.Comment p {
+    margin: 0px;
+}
+
+.delete-comment, .delete-comment-cancel, .delete-comment-confirm {
+    border: solid black 1px;
+    text-align: center;
+    height: 25px;
+    margin: 3px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 9px;
+    background-color: black;
+    transition: 0.2s;    
+}
+
+.delete-comment-confirm {
+    background-color: red;
+    color: black;
+}
+
+.delete-comment-confirm:hover {
+    background-color: rgba(128,0,0,1);
+    color: white;
+    transition: 0.2s;
+}
+
+.delete-comment:hover, .delete-comment-cancel:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.comment-submit-button {
+    background: linear-gradient(to bottom right, rgba(192,255,255,1), rgba(128,255,255,1));
+    color: black;
+    border: solid black 1px;
+    height: 32px;
+    border-radius: 18px;
+    padding: 0px 9px 0px 9px;
+    transition: 1s;
+}
+
+.comment-form-body {
+    flex-grow: 1;
+}
+
+.CommentForm {
+    display: flex;
+    justify-content: space-between
+}
+
+.comment-header {
+    margin: 5px;
+}
+
+.comments-sort-control {
+    display: flex
+}
+
+.comments-sort-control p {
+    margin: 0px;
+    width: 60px;
+}

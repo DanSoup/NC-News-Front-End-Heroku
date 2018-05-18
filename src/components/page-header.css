@@ -1,0 +1,53 @@
+h1 {
+    animation: titleSlideIn 1s;
+    margin: 0px;
+    font-size: 3em;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.navigation-link {
+    background: linear-gradient(rgb(129, 219, 255), rgb(128, 178, 253));
+    border: solid black 1px;
+    height: 18px;
+    border-radius: 18px;
+    padding: 0px 9px 0px 9px;
+    transition: 1s;
+}
+
+.navigation-link:hover {
+    background: linear-gradient(rgb(255, 255, 255), rgb(187, 214, 255));
+    transition: 1s;
+}
+
+.selected-navigation-link {
+    font-weight: bold;
+}
+
+.PageHeader a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+.PageHeader a:visited {
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+@keyframes titleSlideIn {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

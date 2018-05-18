@@ -1,0 +1,8 @@
+.articles-preview-container {
+        border: black solid 1px;
+        margin: 20px;
+        padding: 3px;
+        text-align: left;
+        border-radius: 18px;
+        background: linear-gradient(to bottom right, rgb(112, 202, 255), rgb(0, 170, 212));
+}

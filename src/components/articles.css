@@ -1,0 +1,100 @@
+.article-preview {
+    background: linear-gradient(to bottom right, rgba(192,255,255,1), rgba(128,255,255,1));
+    border: black solid 1px;
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: left;
+    border-radius: 18px;
+}
+
+.intra-article-link {
+    color: rgba(0,0,96);
+    text-decoration: none;
+}
+
+.article-preview p {
+    margin: 0px;
+}
+
+.article-full, .comments-container, .main-text-body {
+    background: linear-gradient(to bottom right, rgba(192,255,255,1), rgba(128,255,255,1));
+    border: black solid 1px;
+    margin: 20px;
+    padding: 5px 5px;
+    text-align: left;
+    border-radius: 18px;
+}
+
+.main-text-body {
+    margin: 2px;
+    background: linear-gradient(to bottom right, rgba(255,255,255,1), rgba(240,255,255,1));
+}
+
+.comments-container {
+    background: linear-gradient(to bottom right, rgb(112, 202, 255), rgb(0, 170, 212));
+    padding: 2px;
+}
+
+.article-full p {
+    margin: 0px;
+}
+
+.sort-button {
+    background: linear-gradient(to bottom right, rgba(192,255,255,1), rgba(128,255,255,1));
+    color: black;
+    border: solid black 1px;
+    height: 18px;
+    border-radius: 18px;
+    padding: 0px 9px 0px 9px;
+    transition: 1s;
+}
+
+.sort-button:hover {
+    background: linear-gradient(to bottom right, rgba(255,255,255,1), rgba(192,255,255,1));
+    transition: 1s;
+}
+
+.vote-down, .vote-up {
+    border: solid black 1px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    border-radius: 9px;
+    margin: 3px;    
+}
+
+.vote-up {
+    background-color: rgb(0, 100, 0);
+}
+
+.vote-up:hover {
+    background-color: rgb(0, 200, 0);
+}
+
+.vote-down {
+    background-color: rgb(100, 0, 0);
+}
+
+.vote-down:hover {
+    background-color: rgb(200, 0, 0);
+}
+
+.articles-sort-control, .voting-container {
+    display: flex;
+    align-items: center;
+}
+
+.voting-container p {
+    margin: 0px;
+}
+
+.articles-sort-control p {
+    margin: 0px;
+    width: 60px;
+}
+
+.articles-preview-header {
+    margin: 5px
+}
